@@ -1,0 +1,83 @@
+/*////////// Main Page //////////*/
+
+
+#logo {
+	height:150px;
+	margin-top: -50px;
+	margin-bottom: -60px;
+}
+
+header.masthead {
+  padding-top: 350px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+  background:url("../images/banner2.jpg") center center;
+  background-size:cover;
+  height: 600px;
+}
+
+#footer{
+	padding-bottom: 5px;
+
+}
+
+
+
+/*///////////// Login Popup Screen /////////////*/
+#matchScreen {
+    width:50%;
+    height:50%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:#D8ECAE;
+    opacity:0.9;
+    text-align:center;
+    margin-left:25%;
+    margin-top:15%;
+    border: solid thick white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.matchScreentext {
+  margin-top:5%;
+  color:black;
+  padding-left:40px;
+  padding-right:40px;
+}
+
+#matchTextsmall {
+  letter-spacing:.5px;
+
+}
+
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-family:Arial, Sans-Serif;
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+ 
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
+}

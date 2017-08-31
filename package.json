@@ -1,0 +1,29 @@
+{
+  "name": "flyerpicks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/askakdagr8/flyerpicks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/askakdagr8/flyerpicks/issues"
+  },
+  "homepage": "https://github.com/askakdagr8/flyerpicks#readme",
+  "dependencies": {
+    "auth0-lock": "^10.20.0",
+    "body-parser": "^1.17.2",
+    "connect-ensure-login": "^0.1.1",
+    "express": "^4.15.4",
+    "mysql": "^2.14.1",
+    "passport": "^0.4.0",
+    "passport-auth0": "^0.6.0"
+  }
+}
